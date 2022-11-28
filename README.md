@@ -1,5 +1,6 @@
 # One Punch Man Downloader
-A very simple python script to download One Punch Man manga chapters in .cbz format.
+A very simple python script to download One Punch Man manga chapters in .cbz format.\
+Chapters are downloaded from https://gist.githubusercontent.com/funkyhippo/1d40bd5dae11e03a6af20e5a9a030d81/raw/?
 
 ## Installation
 Clone or download the repository and cd into it
