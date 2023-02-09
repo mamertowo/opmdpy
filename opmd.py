@@ -35,7 +35,6 @@ def downloadChapter(chapter, index, targetPath):
 
 def downloadChapters(targetPath, firstChapter, lastChapter, sourcePaths):
     #Self explanatory
-    print(firstChapter)
     while (firstChapter <= lastChapter):
         if (firstChapter == math.floor(firstChapter)):
             chapterIndex = str(int(firstChapter))
@@ -57,7 +56,10 @@ def main(argv):
     #Self explanatory
     sourceURL = "https://gist.githubusercontent.com/funkyhippo/1d40bd5dae11e03a6af20e5a9a030d81/raw/?"
     sourcePaths = json.loads(requests.get(sourceURL).content)
-    totalChapters = len(sourcePaths["chapters"])
+    totalChapters = 0
+    for chapter in sourcePaths["chapters"]:
+        if (float(chapter) > totalChapters):
+            totalChapters = float(chapter)
     firstChapter = Decimal(0)
     lastChapter = Decimal(0)
     targetPath = ""
