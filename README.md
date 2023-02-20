@@ -6,9 +6,9 @@ Chapters are downloaded from https://gist.githubusercontent.com/funkyhippo/1d40b
 Just download `opmd.exe` from the latest release.
 
 ## Usage
-Run the script on a terminal/console
+Open a terminal where you saved the .exe and run the script.
 ```bash
-python opmd.py [-a] [-f FIRSTCHAPTER] [-l LASTCHAPTER] [-p TARGETPATH] [-h]
+./opmd.exe [-a] [-f FIRSTCHAPTER] [-l LASTCHAPTER] [-p TARGETPATH] [-h]
 ```
 
 ## Arguments
