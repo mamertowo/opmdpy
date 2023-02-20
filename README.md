@@ -3,30 +3,10 @@ A very simple python script to download One Punch Man manga chapters in .cbz for
 Chapters are downloaded from https://gist.githubusercontent.com/funkyhippo/1d40bd5dae11e03a6af20e5a9a030d81/raw/?
 
 ## Installation
-Clone or download the repository and cd into it
-```bash
-git clone https://github.com/mamertowo/opmdpy
-cd opmdpy
-```
-Make a new virtual environment
-```bash
-python -m venv .venv
-```
-Activate the virtual environment
-```bash
-.\.venv\Scripts\Activate.ps1
-```
-Install dependencies
-```bash
-pip install -r requirement.txt
-```
+Just download `opmd.exe` from the latest release.
 
 ## Usage
-Activate the virtual environment
-```bash
-.\.venv\Scripts\Activate.ps1
-```
-Run the script
+Run the script on a terminal/console
 ```bash
 python opmd.py [-a] [-f FIRSTCHAPTER] [-l LASTCHAPTER] [-p TARGETPATH] [-h]
 ```
